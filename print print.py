@@ -3,4 +3,4 @@ tot=0
 while x<=10:
     tot=tot+x
     x=x+1
-    print("tot")
+print(tot)

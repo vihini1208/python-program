@@ -1,10 +1,10 @@
-x=int(input("enter marks; "))
-y=0
-max=0
-while y <= 40:
-    print("max")
-inputx
-    ifmax=x
+x=int(input("enter marks: "))
+max=x
+y=1
+while (y < 5):
+    if (max<x):
+        max=x
+    x=int(input("enter marks: "))
     y=y+1
-else:
-    max=x
+print(max)   
+    
